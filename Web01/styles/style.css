@@ -1,0 +1,57 @@
+/*
+ syntaxe css
+ selector{
+    vlastnost: hodnota;
+    vlastnost: hodnota;
+    vlastnost: hodnota;
+    vlastnost: hodnota;
+    vlastnost: hodnota;
+ }
+ */
+ body{
+    background-color: bisque;
+ }
+
+ h1{
+    color: cadetblue;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .page-wrapper{
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: lightgoldenrodyellow;
+ }
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    padding: 0;
+}
+
+ nav a{
+    background-color: coral;
+    color:white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+ }
+
+ nav a:hover{
+    background-color: black;
+ }
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+ .card{
+    padding: 7px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+ }
