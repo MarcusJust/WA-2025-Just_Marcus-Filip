@@ -21,14 +21,22 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" aria-current="page" href="#buttons">Tlačítka</a></li>
-                    <li class="nav-item"><a class="nav-link" aria-current="page" href="#cards">Karty</a></li>
-                    <li class="nav-item"><a class="nav-link" aria-current="page" href="#tables">Tabulky</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Obsah
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#buttons">Tlačítka</a></li>
+                          <li><a class="dropdown-item" href="#cards">Karty</a></li>
+                          <li><a class="dropdown-item" href="#tables">Tabulky</a></li>
+                        </ul>
+                      </li>
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="galery.htm">Galerie</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <header class="mt-5">
+    <header class="mt-5 py-3">
         <h1>Vítejte na mé stránce ohledně toolkitu Bootstrap</h1>
         <p>Budu zde prezentovat vybrané komponenty</p>
         <a href="#buttons" class="btn btn-light btn-lg">Začít</a>
